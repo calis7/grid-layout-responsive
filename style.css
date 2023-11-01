@@ -1,10 +1,16 @@
+ body {
+    margin: auto;
 
+}
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr 2fr 1fr;
-    gap: 5px;
+    
+    height: 100vh;
+    width: auto;
+    margin: 0;
    
     grid-template-areas:
         "header header header"
@@ -20,6 +26,8 @@ header, aside, main, section, article, footer {
     text-align: center; /* Alinea el texto horizontalmente al centro */
     background-color: #ffcc00; /* Color de fondo amarillo */
     border: 1px solid #000; /* Borde negro de 1px */
+    
+    
 }
 
 header {
